@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ListService } from './list.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gitprjt';
+  
+  btnclicked(){
+    const msgService = new ListService()
+    msgService.btnclick()
+  }
 }
