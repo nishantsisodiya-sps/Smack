@@ -8,7 +8,8 @@ export class ListService {
   constructor() { }
 
   btnclick(){
-    console.log("You are in Home component")
+    const back = document.getElementById('container');
+    back!.style.backgroundColor = 'red'
   }
 
 }
