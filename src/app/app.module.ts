@@ -5,6 +5,7 @@ import { RouterModule , Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { ListService } from './list.service';
 
 const appRouts : Routes =[
   {path: "home" , component: HomeComponent}
